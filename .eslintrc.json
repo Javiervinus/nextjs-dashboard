@@ -1,3 +1,7 @@
 {
-  "extends": "next/core-web-vitals"
+  "extends": "next/core-web-vitals",
+  //regla para que se muestre error si estas usando un let cuando podrias usar const
+  "rules": {
+    "prefer-const": "error"
+  }
 }
